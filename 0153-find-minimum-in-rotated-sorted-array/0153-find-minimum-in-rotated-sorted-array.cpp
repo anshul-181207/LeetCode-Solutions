@@ -9,7 +9,8 @@ public:
             if (nums[mid] > nums[h]) {
                 l = mid + 1;
             } else {
-                h = mid;
+            
+                h = mid ;
             }
         }
 
